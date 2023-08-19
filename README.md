@@ -8,6 +8,11 @@ https://github.com/h5bp/html5-boilerplate/blob/main/README.md
 
 Bootstrap, Sass compiling, and CSS/Javascript minification are also included for easy themeing.
 
+## Installation
+
+1. Clone the repo: `git clone https://github.com/scferg/html5-boilerplate-sass.git`
+2. Install dependencies: `npm i`
+
 ## Usage
 
 **Compile Sass and minify both the output CSS and Javascript**<br />
