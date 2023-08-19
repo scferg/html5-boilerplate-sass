@@ -1,0 +1,17 @@
+// Import mixins and variables
+@import "mixins";
+@import "variables";
+
+// Import Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Import partials
+@import "typography";
+@import "buttons";
+@import "forms";
+@import "header";
+@import "footer";
+@import "pages";
+@import "utilities";
+
+// Add additional partials here

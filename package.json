@@ -1,0 +1,33 @@
+{
+  "name": "html5-boilerplate-sass",
+  "version": "1.0.0",
+  "description": "A professional front-end template for building fast, robust, and adaptable web apps or sites — also with Bootstrap, Sass, and CSS/Javascript minification",
+  "keywords": [
+    "h5bp",
+    "template",
+    "front-end",
+    "sass",
+    "html",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scferg/html5-boilerplate-sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scferg/html5-boilerplate-sass/issues"
+  },
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded src/scss:dist/css",
+    "sass-prod": "sass --no-source-map --style=compressed src/scss:dist/css",
+    "js-minify": "minify src/js/main.js > dist/js/main.js",
+    "build": "npm run sass-prod && npm run js-minify"
+  },
+  "author": "RelayBuilt",
+  "license": "MIT",
+  "devDependencies": {
+    "minify": "^10",
+    "sass": "^1",
+    "bootstrap": "^5"
+  }
+}
