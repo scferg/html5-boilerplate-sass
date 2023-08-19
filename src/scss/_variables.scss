@@ -1,4 +1,37 @@
 /* ============================
-   Variables
+   Variables (common Bootstrap variables listed below)
    ============================ */
 
+// Colors
+//$primary:       $blue !default;
+//$secondary:     $gray-600 !default;
+//$success:       $green !default;
+//$info:          $cyan !default;
+//$warning:       $yellow !default;
+//$danger:        $red !default;
+//$body-color:    $gray-900 !default;
+
+// Options
+//$enable-caret:                true !default;
+//$enable-rounded:              true !default;
+//$enable-shadows:              false !default;
+//$enable-gradients:            false !default;
+//$enable-transitions:          true !default;
+//$enable-reduced-motion:       true !default;
+//$enable-smooth-scroll:        true !default;
+//$enable-grid-classes:         true !default;
+//$enable-container-classes:    true !default;
+//$enable-cssgrid:              false !default;
+//$enable-button-pointers:      true !default;
+//$enable-rfs:                  true !default;
+//$enable-validation-icons:     true !default;
+//$enable-negative-margins:     false !default;
+//$enable-deprecation-messages: true !default;
+//$enable-important-utilities:  true !default;
+//$enable-dark-mode:            true !default;
+//$color-mode-type:             data !default; // `data` or `media-query`
+
+// Typography
+//$font-family-base:            var(--#{$prefix}font-sans-serif) !default;
+//$font-weight-base:            $font-weight-normal !default;
+//$font-weight-bold:            700 !default;
